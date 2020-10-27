@@ -31,7 +31,8 @@ setup(
         [console_scripts]
         roam-to-sqlite=roam_to_sqlite.cli:cli
     """,
-    install_requires=["click"],
+    install_requires=["click",
+                      "sqlite-utils"],
     extras_require={
         "test": ["pytest"]
     },
